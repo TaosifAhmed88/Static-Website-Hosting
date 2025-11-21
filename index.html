@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Static Website Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <div class="logo">MyStaticSite</div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Clean, Simple Static Website</h1>
+        <p>
+          This is a fully static website built only with HTML and CSS.
+          You can use it as a template for your portfolio, product or project page.
+        </p>
+        <a href="#contact" class="btn-primary">Get Started</a>
+      </div>
+      <div class="hero-box">
+        <p>100% Static</p>
+        <p>Responsive Layout</p>
+        <p>No JavaScript Needed</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="section">
+    <div class="container">
+      <h2 class="section-title">Features</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Fast</h3>
+          <p>Static sites load faster because they are just HTML, CSS, and images.</p>
+        </div>
+        <div class="card">
+          <h3>Secure</h3>
+          <p>No server-side code means fewer attack points and higher security.</p>
+        </div>
+        <div class="card">
+          <h3>Easy to Host</h3>
+          <p>Host on GitHub Pages, Netlify, Vercel, or any simple web server.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section section-alt">
+    <div class="container about-layout">
+      <div>
+        <h2 class="section-title">About This Template</h2>
+        <p>
+          This is a minimal, modern layout created with pure CSS. You can easily
+          customize colors, fonts, and sections to fit your project needs.
+        </p>
+        <p>
+          Add more sections like services, portfolio, blog, or FAQ by copying
+          the existing pattern of containers and cards.
+        </p>
+      </div>
+      <div class="about-box">
+        <h3>Tech Stack</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3 (Flexbox + simple responsive layout)</li>
+          <li>No frameworks required</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <div>
+          <p>
+            Want to customize this template or build something similar?
+            Replace this text with your contact info or a form service link.
+          </p>
+          <p>Email: <strong>youremail@example.com</strong></p>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2025 MyStaticSite. All rights reserved.</p>
+      <p>Built with pure HTML & CSS.</p>
+    </div>
+  </footer>
+</body>
+</html>
