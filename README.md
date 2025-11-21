@@ -8,7 +8,7 @@ It contains an `index.html` webpage (and optional CSS) to demonstrate static dep
 ## 🚀 Live Website
 
 🔗 **Visit the Website:**  
-👉 https://TaosifAhmed88.github.io/Static-Website-Hosting-with-Github-Pages/
+👉 https://TaosifAhmed88.github.io/Static-Website-Hosting/
 
 
 
